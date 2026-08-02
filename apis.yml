@@ -1,8 +1,29 @@
 aid: ultimagenomics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ultimagenomics.png
 name: Ultimagenomics
-description: Ultimagenomics is a company surfaced as a portfolio company of khosla-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Ultima Genomics develops high-throughput, low-cost DNA sequencing platforms
+  built on a novel semiconductor-inspired architecture, aimed at driving the
+  cost of a genome dramatically down to unlock population-scale genomics. Its
+  systems support germline and somatic (oncology/MRD) sequencing, single-cell
+  and spatial workflows, methylation/epigenomics, and proteomics, and integrate
+  with an open ecosystem of third-party library-prep providers (10x Genomics,
+  Olink). Rather than a public REST API, Ultima exposes its developer surface as
+  open-source bioinformatics tooling and analysis pipelines: a large GitHub
+  organization (Ultimagen) of UG-adapted variant callers and genomics utilities
+  (GATK, Picard, STAR forks, ugbio-utils) and AWS HealthOmics WDL workflows for
+  running cost-effective secondary analysis in the cloud.
 url: https://raw.githubusercontent.com/api-evangelist/ultimagenomics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Genomics
+- DNA Sequencing
+- Bioinformatics
+- Life Sciences
+- Healthcare
+- Single Cell
+- Oncology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.ultimagenomics.com/
+- type: GitHubOrganization
+  url: https://github.com/Ultimagen
+- type: Documentation
+  name: Analysis and Bioinformatics
+  url: https://www.ultimagenomics.com/products/analysis-and-bioinformatics/
+- type: GettingStarted
+  name: Get Started with Ultima Bioinformatics
+  url: https://www.ultimagenomics.com/products/Start-BioInformatics/
+- type: Support
+  name: Technical Support
+  url: https://www.ultimagenomics.com/products/speak-with-ultima-technical-support/
+- type: Blog
+  name: News
+  url: https://www.ultimagenomics.com/news/
+- type: PrivacyPolicy
+  url: https://www.ultimagenomics.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.ultimagenomics.com/terms-of-use/
+- type: DomainSecurity
+  url: security/ultimagenomics-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
