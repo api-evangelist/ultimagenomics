@@ -1,0 +1,33 @@
+# Ultima Genomics
+
+> Ultima Genomics develops high-throughput, cost-effective DNA sequencing platforms and solutions. Its UG200 Series sequencer targets population-scale genomics across germline, oncology, single-cell, proteomics, and epigenomics applications. The company publishes open bioinformatics tooling and AWS HealthOmics workflows rather than a hosted developer REST API.
+
+<!--
+generated: '2026-07-21'
+method: generated
+source: apis.yml + https://www.ultimagenomics.com + https://github.com/Ultimagen
+note: This company publishes no hosted developer REST API, OpenAPI, or SDK. Its
+      programmatic surface is open-source bioinformatics tooling and WDL workflows
+      on GitHub. Links below are real published resources only.
+-->
+
+## Company
+
+- [Ultima Genomics](https://www.ultimagenomics.com): High-throughput, cost-effective DNA sequencing solutions (UG200 Series).
+- [About Us](https://www.ultimagenomics.com/about-us): Company overview.
+- [News & Events](https://www.ultimagenomics.com/news-and-events): Company news and announcements.
+- [Careers](https://www.ultimagenomics.com/careers): Open roles.
+
+## Resources & Documentation
+
+- [Resources Hub](https://www.ultimagenomics.com/resources): Support documents, application notes, literature, protocols, technical notes, publications, datasets, tools, videos, and webinars.
+- [Support Documents](https://www.ultimagenomics.com/resources/?category=Support-Documents)
+- [Protocols](https://www.ultimagenomics.com/resources/?category=protocols)
+- [Publications](https://www.ultimagenomics.com/resources/?category=publications)
+
+## Bioinformatics Tooling (GitHub)
+
+- [Ultimagen GitHub Organization](https://github.com/Ultimagen): Open-source bioinformatics tools and pipelines.
+- [healthomics-workflows](https://github.com/Ultimagen/healthomics-workflows): WDL workflows compatible with AWS HealthOmics.
+- [VariantCalling](https://github.com/Ultimagen/VariantCalling): Downstream processing of WGS, MRD, and methylation analysis.
+- [ugbio-utils](https://github.com/Ultimagen/ugbio-utils): Ultima Genomics bioinformatics utilities (Python).
